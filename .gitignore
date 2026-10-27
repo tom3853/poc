@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-wsl/
+
+# Ephemeral target databases created per run
+*.db
+target_*.db
+
+# Secrets - never commit the API key
+.env
